@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.buy, .sell, .rent{
+    border: none;
+    border-radius: 50%;
+}
+.desc{
+    margin: 30px 0;
+}

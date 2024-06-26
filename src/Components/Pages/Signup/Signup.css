@@ -1,0 +1,96 @@
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px
+}
+
+nav{
+    display: fixed;
+    background-color: rgb(78, 11, 140);
+}
+
+a:active{
+    color: inherit;
+}
+
+.cols-1 {
+    /* padding: 40px 40px; */
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition: transform .5s;
+    flex-basis: 30%;
+    min-width: 600px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    object-fit: cover;
+}   
+hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form{
+    margin-top: 40px;
+    align-items: center;
+}
+.form input{
+    border: 1px solid #c5c5c5;
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 100%;
+}
+.div{
+    display: block;
+    margin: 15px 10px;
+}
+.cols-1 .span{
+    color: rgb(93, 10, 170);
+    cursor: pointer;
+}
+.cols-1 .span{
+    color: rgb(78, 11, 140);
+}
+.form button{
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.form button:hover{
+    background-color: rgb(78, 11, 140);
+    transition: .45s
+}
+.warning{
+    color: red;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .cols-1 {
+        margin: -30px;
+        align-items: center;
+        text-align: center;
+        display: inline;
+        width: 100%;
+    }
+
+    .sign-up{
+        width: 1rem;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    input {
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 30px;
+        display: inline;
+        padding-left: 30px;
+    }
+    .footer input{
+        display: block;
+        width: 100%;
+    }
+}
